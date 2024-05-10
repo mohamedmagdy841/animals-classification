@@ -16,8 +16,8 @@ def plot_loss_curves(results):
     test_loss = results['test_loss']
 
     # Get the accuracy values of the results dictionary (training and test)
-    #accuracy = results['train_acc']
-    #test_accuracy = results['test_acc']
+    accuracy = results['train_acc']
+    test_accuracy = results['test_acc']
 
     # Figure out how many epochs there were
     epochs = range(len(results['train_loss']))
@@ -32,7 +32,6 @@ def plot_loss_curves(results):
     plt.title('Loss')
     plt.xlabel('Epochs')
     plt.legend()
-    '''
     # Plot accuracy
     plt.subplot(1, 2, 2)
     plt.plot(epochs, accuracy, label='train_accuracy')
@@ -40,4 +39,4 @@ def plot_loss_curves(results):
     plt.title('Accuracy')
     plt.xlabel('Epochs')
     plt.legend();
-    '''
+  
