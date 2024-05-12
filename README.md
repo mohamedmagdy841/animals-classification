@@ -1,6 +1,6 @@
 # Animals Classification Using PyTorch
 
-### This project classifies 5 different categories of animals, (cats, dogs, elephants, horses, lions) by fine-tuning state-of-the-art EfficientNet_B1 model.
+This project classifies 5 different categories of animals, (cats, dogs, elephants, horses, lions) by fine-tuning state-of-the-art EfficientNet_B1 model.
 
 Every part of this project shows how to do the following:
 
